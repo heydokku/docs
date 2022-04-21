@@ -1,0 +1,2 @@
+- not referring to any other scripts
+- has __main__ function

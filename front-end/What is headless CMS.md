@@ -1,0 +1,1 @@
+Headless CMSs focus solely on managing content and providing a great content editing experience while empowering devs to use whatever front-end and back-end tech they want in order to make better websites

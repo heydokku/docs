@@ -1,0 +1,2 @@
+- CoffeeScript is a dynamic, imperative, scripting, multi-paradigm, prototype-based, imperative, and functional programming language, which is used to transpile the code into JavaScript. It is easy to read & maintain the code.
+- TypeScript It is a strongly typed superset of JavaScript which compiles to plain JavaScript. It is best for large scale projects

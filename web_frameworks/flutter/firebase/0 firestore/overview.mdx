@@ -1,0 +1,69 @@
+---
+title: Cloud Firestore
+sidebar_label: Overview
+---
+
+##  What does it do?
+
+- noSQL cloud database to store and sync data.
+- It keeps your data in sync across client apps through realtime listeners and offers *offline* support so you can build responsive apps that work regardless of network latency or Internet connectivity.
+
+## Installation
+
+Ensure you're using the Flutter `stable` channel:
+
+```bash
+$ flutter channel stable
+```
+
+```dart
+// ignore: import_of_legacy_library_into_null_safe
+import 'package:firebase_analytics/firebase_analytics.dart';
+```
+
+### 1. Add dependency
+
+Add the [`cloud_firestore`](https://pub.dev/packages/cloud_firestore) dependency to your projects `pubspec.yaml` file:
+
+
+```yaml {5} title="pubspec.yaml"
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: "^{{ plugins.firebase_core }}"
+  cloud_firestore: "^{{ plugins.cloud_firestore }}"
+```
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: "^{{ plugins.firebase_core_ns }}"
+  cloud_firestore: "^{{ plugins.cloud_firestore_ns }}"
+```
+### 2. Download dependency
+
+```
+$ flutter pub get
+```
+
+### 3. (Web Only) Add the SDK
+
+If using FlutterFire on the web, add the `firebase-firestore` JavaScript SDK to your `index.html` file:
+
+```html {5} title="web/index.html"
+<html>
+  ...
+  <body>
+    <script src="https://www.gstatic.com/firebasejs/{{ web.firebase_cdn }}/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/{{ web.firebase_cdn }}/firebase-firestore.js"></script>
+  </body>
+</html>
+```
+
+
+### 4. Rebuild your app
+
+Once complete, rebuild your Flutter application:
+
+```bash
+$ flutter run
+```

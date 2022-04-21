@@ -1,0 +1,6 @@
+1. [Ribbon - Inter Process Communication remote procedure calls library with built in software load balancers](https://github.com/Netflix/ribbon)
+2. [Eureke - AWS Service registry for resilient mid-tier load balancing and failover](https://github.com/Netflix/eureka)
+3. [prometheus - monitoring system and time series database](https://github.com/prometheus/prometheus)
+4. [prometheus alertmanager](https://github.com/prometheus/alertmanager)
+5. [node_exporter - Exporter for machine metrics](https://github.com/prometheus/node_exporter)
+6. [grafana - data visualization platform. Visualize metrics, logs, and traces from multiple sources like Prometheus, Loki, Elasticsearch, InfluxDB, Postgres and many more](https://github.com/grafana/grafana)

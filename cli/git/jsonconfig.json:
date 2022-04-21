@@ -1,0 +1,1 @@
+The one thing that is missing here, if you're using VSCode, is your IDE won't be able to help you with auto-completing your paths. This is where the jsconfig.json file comes into play.

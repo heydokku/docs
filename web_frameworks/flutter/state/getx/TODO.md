@@ -1,0 +1,3 @@
+- [ ] Download flutter-starter with getx
+- [ ] Can insert controller into a controller
+- [ ]
