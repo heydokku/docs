@@ -137,9 +137,9 @@ json
 - [dit](https://github.com/vulpino/dit) - Dotfile manager that hooks into Git.
 - [tealdeer](https://github.com/dbrgn/tealdeer) - Very fast implementation of 'tldr'.
 - [yank](https://github.com/mptre/yank) - Yank terminal output to clipboard.
+
 ### Security
 
-- [acme.sh](https://github.com/Neilpang/acme.sh) - Pure Unix shell script implementing ACME client protocol, for Let's Encrypt.
 - [Aircrack-ng](http://aircrack-ng.org) - 802.11 WEP and WPA-PSK keys cracking program that can recover keys once enough data packets have been captured.
 - [Let's Encrypt](https://letsencrypt.org) - Free, automated and open Certificate Authority.
 - [pass](https://www.passwordstore.org) - The standard Unix password manager.

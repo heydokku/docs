@@ -59,8 +59,7 @@ examples: [electerm](https://github.com/electerm/electerm#electerm) ( I use term
 ### SSL
 
 [ ] [acme.sh](https://www.youtube.com/watch?v=BYkBJ11gDIM): 26k Get SSL free, used with traefik
-acme.sh supports the following validation methods that you can use
-to confirm domain ownership:
+acme.sh supports the following validation methods that you can use to confirm domain ownership:
 
 • Webroot mode
 • Standalone mode
@@ -70,7 +69,9 @@ to confirm domain ownership:
 • DNS mode
 • DNS alias mode
 • Stateless mode
-                
+
+[ ] acme-dns • Star 1.4k Limited DNS server with RESTful HTTP API to handle ACME DNS challenges easily and securely.
+
 [ ] [truenas](https://www.youtube.com/watch?v=M3pKprTdNqQ)
 
 ### Messages

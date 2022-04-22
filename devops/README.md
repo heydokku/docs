@@ -14,11 +14,18 @@ Ops
 - Operate
 - Monitor
 
-### Monitoring Kubernetes workloads, metrics
+### Docker and Container
 
-The gap [Prometheus](Prometheus) fills is for monitoring and alerting. Get data (mainly, time series data) from server
+[Why container](Why container)
 
-[Grafana](Grafana): Visualize any data source: Examples from databases like MySQl, PosgreSQL, Prometheus...
+[docker](docker/docker)
+
+[docker-compose](docker/docker-compose)
+
+### Container management
+
+[ ] [portainer](portainer): 21k The application allows you to manage all your orchestrator resources (containers, images, volumes, networks and more) through a ¿smart¿ GUI and/or an extensive API.
+use Docker and migrate your existing Apps to your Linux Server
 
 ### Deployment
 
@@ -28,16 +35,13 @@ Choices to deploy my app
 2 Container (Docker...)
 3 [Kubernetes](kubernetes/README.md) (Cluster)
 
-### Container
 
-[Why container](Why container)
+### Monitoring Kubernetes workloads, metrics
 
-[docker](docker/docker)
+The gap [Prometheus](Prometheus) fills is for monitoring and alerting. Get data (mainly, time series data) from server
 
-### Container management
+[Grafana](Grafana): Visualize any data source: Examples from databases like MySQl, PosgreSQL, Prometheus...
 
-[ ] [portainer](portainer): 21k The application allows you to manage all your orchestrator resources (containers, images, volumes, networks and more) through a ¿smart¿ GUI and/or an extensive API.
-use Docker and migrate your existing Apps to your Linux Server
 
 ###  Images
 
