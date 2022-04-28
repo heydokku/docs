@@ -24,8 +24,18 @@ Ops
 
 ### Container management
 
-[ ] [portainer](portainer): 21k The application allows you to manage all your orchestrator resources (containers, images, volumes, networks and more) through a ¿smart¿ GUI and/or an extensive API.
+[ ] [portainer](portainer): 21k WebUI The application allows you to manage all your orchestrator resources (containers, images, volumes, networks and more) through a ¿smart¿ GUI and/or an extensive API.
 use Docker and migrate your existing Apps to your Linux Server
+[ ] netdata :58.9k Web UI Real-time performance monitoring, done right
+
+[X] container-diff 3.9k https://github.com/GoogleContainerTools/container-diff
+
+### Docker improvement
+[ ] docker-sync: 3.9k Run your application at full speed while syncing your code for development
+- Create docker-sync.yml file in the main dir
+- docker-sync start [tutorial](https://www.educba.com/docker-sync/)
+ 
+[X] lando: A development tool for all your projects that is fast, easy, powerful and liberating 
 
 ### Deployment
 
@@ -35,25 +45,57 @@ Choices to deploy my app
 2 Container (Docker...)
 3 [Kubernetes](kubernetes/README.md) (Cluster)
 
+### Monitoring 
 
-### Monitoring Kubernetes workloads, metrics
-
-The gap [Prometheus](Prometheus) fills is for monitoring and alerting. Get data (mainly, time series data) from server
-
-[Grafana](Grafana): Visualize any data source: Examples from databases like MySQl, PosgreSQL, Prometheus...
-
+[ ] [loki](monitoring/loki): 15k monitoring logs
+[X] The gap [Prometheus](Prometheus) fills is for monitoring and alerting. Get data (mainly, time series data) from server
 
 ###  Images
 
-[ ] [Watchtower](Watchtower) : 10.9k A container-based solution for automating Docker container base image updates
-[ ] [Packer](Packer): Create identical machine images for multiple platforms from a single source configuration
+- Inspecting Image
+[0] dive: 31k inpsect an image layer
+
+- Updating image
+[0] [Watchtower](Watchtower) : 10.9k A container-based solution for *automating* Docker container base image updates
+
+- Creating image
+[0] [Packer](Packer): Create identical machine images for multiple platforms from a single source configuration
+[ ] https://github.com/GoogleContainerTools/distroless 12.5k
+- Working with registry
+[0] [Skopeo](skopeo):  Work with remote images registries - retrieving information, images, signing content 
+
+- Minifying image
+[0] docker-slim: 13.2k Make Your Containers Better, Smaller, More Secure and Do Less to Get There
+
+- Container registry
+1 hub.docker: a Anonymous (unauthenticated) users will be limited to
+100 container image pulls every six hours, and Free (authenticated)
+    users will be limited to 200 container image pulls every six hours,
+        when enforcement is fully implemented
+2 quay.io
+3 ghcr.io (github container registry)
+
+- docker with hardware
+15k https://github.com/NVIDIA/nvidia-docker Build and run Docker containers leveraging NVIDIA GPUs 
+
+### Nginx related
+nginx-proxy: 15.9k  Automated nginx proxy for Docker containers using docker-gen 
+acme-companion:6k   Automated ACME SSL certificate generation for nginx-proxy 
+nginx-proxy-manager: 6.7k Docker container for managing Nginx proxy hosts with a simple, powerful interface 
+
+### Troubleshooting
+
+[0] netshoot: 4.3k a Docker + Kubernetes network trouble-shooting swiss-army container 
 
 ### Infrastructure
 
-[Terraform](Terraform): Describe your complete infrastructure as code and build resources across providers". With Terraform, you describe your complete infrastructure as code, even as it spans multiple service providers. Your servers may come from AWS, your DNS may come from CloudFlare, and your database may come from Heroku. Terraform will build all these resources across all these providers in parallel
+[README](IaC/terraform)
+ 
+### Blog
+ 
+[10 things to avoid in Container](10 things to avoid in Container)
 
-[Ansible](Ansible): Initialize the fresh server, control remote server by playbook
-
+### Books
 
 ### Virtual machine (VM)
 
@@ -62,14 +104,7 @@ have come across Vagrant because I often need to set up virtual machines for mak
 
 [ ] [Promox](vm/promox): Create Mac OS, Windows, Ubuntu Virtual machine
 
+### Pandas related
 
-### Cloud Provider
+Visualizer for pandas data structures https://github.com/man-group/dtale#docker-container
 
-[ ] [nextcloud](nextcloud): 19k, self-hosted for your cloud
-
-### 
-### Blog
- 
-[10 things to avoid in Container](10 things to avoid in Container)
-
-### Books

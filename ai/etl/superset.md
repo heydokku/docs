@@ -1,3 +1,8 @@
+### Cons
+
+- Has no VietNamese interface
+- Docs is very difficult to understand, hard for the simple things
+
 ### Features
 
 - Superset is a caching engine, when 100 people loads, they don't hit the database

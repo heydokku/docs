@@ -24,14 +24,28 @@ bash is the best shell yet
 
 `bash-it` framework: alias, plugins, completion
 
+[ ] [zx](zx): 30k Writing bash script with JavaScript
+
 zsh cons:
 - Not the default shell on the server side ( the biggest point)
 - Not have vim mode
 - Not good for automation
 
-* - [o] [zsh](zsh) - Powerful shell with scripting language
+* - [X] [zsh](zsh) - Powerful shell with scripting language
 
 [ ] Try nutshell, written in Rust
+
+## For Developers
+
+*Command-line development, version control, and deployment.*
+
+* 0 [hub](https://github.com/github/hub) 22k - hub helps you win at git.
+* 0 [gh]() 20k - hub helps you win at git.
+What does gh provide that hub doesn't, and why would the experience not be focused on continuing to work on hub? Now there's 2 tools, clear confusion as to support, but both are being actively developed. I don't see the benefit of gh, to be honest.
+[0] lazygit: 23k manage git repos in command line
+
+[0] [ctop](ctop): 12.3k display CPU, memory usage for each container
+[0] [lazydocker](lazydocker): 22k manage Docker containers, images in command line
 
 ## Benchmarking
 
@@ -40,7 +54,6 @@ zsh cons:
 - [loadtest](https://github.com/alexfernandez/loadtest) - Runs a load test on the selected HTTP URL.
 - [pv](http://www.ivarch.com/programs/pv.shtml) - Monitor the progress of data through a pipeline.
 
-* 
 ## Backup, Clean
 * o [mackup](https://github.com/lra/mackup/) 12k - Backup applications's settings to the cloud (ex Dropbox, google drive)
 - 0 [Restic](https://restic.net) 16.4k - Fast, secure, efficient backup program.
@@ -101,24 +114,23 @@ json
 - [MacPorts](https://github.com/macports/macports-ports) - Compile, install and upgrade either command-line, X11 or Aqua based open-source software.
 - [reminders-cli](https://github.com/keith/reminders-cli) 438 - Simple interface for interacting with Reminders.
 - [tag](https://github.com/jdberry/tag) - Manipulate tags on files and query for files with those tags.
-- 
-## Linux
 
-- [aptly](https://github.com/aptly-dev/aptly) -  Swiss army knife for Debian repository management.
+## Linux
 - [deborphan](http://freecode.com/projects/deborphan) - Finds packages installed on your Debian system that have no other packages depending on them.
+- 
 ### World Wide Web
 
 - [pageres](https://github.com/sindresorhus/pageres) 10k - Capture screenshots of websites in various resolutions.
-- 
+
 ### Version Control
 
 - [Git](https://www.git-scm.com) - Git is a free and open source distributed version control system.
 - [tig](https://github.com/jonas/tig) 11k - ncurses based text-mode interface for Git.
+- 
 ### VPN
-
 - [OpenVPN](https://github.com/OpenVPN/openvpn) 7k- Full-featured open source SSL VPN solution.
+- 
 ### SSH
-
 - [sshfs](https://github.com/libfuse/sshfs) 4.5k- Locally mount a remote folder via SSH.
 - [storm](http://stormssh.readthedocs.io/en/master/) 3.9k- Manage your SSH connections.
 
@@ -135,8 +147,6 @@ json
 
 - [asciinema](https://asciinema.org) - Record terminal sessions and share them on the web.
 - [dit](https://github.com/vulpino/dit) - Dotfile manager that hooks into Git.
-- [tealdeer](https://github.com/dbrgn/tealdeer) - Very fast implementation of 'tldr'.
-- [yank](https://github.com/mptre/yank) - Yank terminal output to clipboard.
 
 ### Security
 
@@ -160,13 +170,6 @@ json
 - [imapsync](https://github.com/imapsync/imapsync) - IMAP synchronisation, sync, copy or migration tool.
 - [OfflineIMAP](https://github.com/OfflineIMAP/offlineimap) - Two-way sync your e-mail mailboxes as a local Maildir.
 - 
-## For Developers
-
-*Command-line development, version control, and deployment.*
-
-* 0 [hub](https://github.com/github/hub) 22k - hub helps you win at git.
-* 0 [gh]() 20k - hub helps you win at git.
-What does gh provide that hub doesn't, and why would the experience not be focused on continuing to work on hub? Now there's 2 tools, clear confusion as to support, but both are being actively developed. I don't see the benefit of gh, to be honest.
 
 [ ] [piku](piku): 1.5k The tiniest PaaS you've ever seen. Piku allows you to do git push deployments to your own servers
 
@@ -193,19 +196,16 @@ Hooks  management
 
 *OS-related tools, including system administration, system debugging, and file and process management.*
 
-Monitoring
+### Monitoring
 
 * 0 [glances](monitoring/glances) 21k - Glances an Eye on your system
 Glances is written in Python and uses the psutil library to get information from your system.
-
--0 [fswatch](https://github.com/emcrisostomo/fswatch) 4.1k- Cross-platform file change monitor with multiple backends.
 
 supervisor: 7.9k control processes related to a project or a customer, 
 and is meant to start like any other service at boot time such as mongodb, redis ..
 [example](https://www.youtube.com/watch?v=eX7D40y9qv8)
 
 Logging
-
 * 
 * 0 [bat](https://github.com/sharkdp/bat) - A `cat` clone with wings
 
@@ -265,8 +265,6 @@ Browse
 
 [0] w3m [key Mapping ](key Mapping )is the best. 
 
-[0] lazygit: 22k manage git repos in command line
-[0] [lazydocker](lazydocker): 22k manage Docker containers, images in command line
 
 For creating task
 - [Timetrap](Timetrap) - 1.2k Simple timetracker.

@@ -1,3 +1,6 @@
+### Lib
+[ ] 7.6k [kompose](https://github.com/kubernetes/kompose): convert docker-compose file into kubernetes config file
+
 ### Repos
 
 [0] https://github.com/docker/awesome-compose

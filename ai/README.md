@@ -27,21 +27,27 @@ Mainly, now we use machine learning power to feed the AI. So the folder is calle
 
 [ ] [Apache Druid ](etl/druid) — 11.7k readltime analytics database
 [x] [Apache hive](etl/apache_hive): 4.2k
+apache kafka https://www.youtube.com/watch?v=Ch5VhJzaoaI
 
 - Data processing, machine learning
 
 [0] [Dask](data_processing/dask): 9k Monitoring resource
 [x] Apache Spark: 33k written in java, No python user uses its
 
-- Data querying, BI
+- BI, Data querying, Data visualization
 
-[ ] [Metabase](Metabase) 29k  [Introduction video](https://www.youtube.com/watch?v=AYDE4dsmNec&t=67s)
+[0] [Metabase](Metabase) 29k  [Introduction video](https://www.youtube.com/watch?v=AYDE4dsmNec&t=67s)
 Can ask the question on the platform
-100m+ in hub docker, far than superset
+100m+ downloads in hub docker, far than superset
+very simple for the simple things that display datas
+The UI make me thinks to Airtable
 
-[0] [Apache Superset](etl/superset) 45k  [homepage](https://superset.apache.org/) stars BI, for querying, data visualization, data exploration platform
+[X] [EKL stack](EKL): 13k docker Elastic + Kybala + Logstash
+Pros: Has built in machine learning. It is a pro or con ?
+Cons: Loading is very slow. the slowest in 3
+
+[X] [Apache Superset](etl/superset) 45k  [homepage](https://superset.apache.org/) stars BI, for querying, data visualization, data exploration platform
 Alternatives: Tableau, Power BI(Microsoft), can save the queries
-
 
 - MLOps
 
@@ -55,16 +61,15 @@ Alternatives: Tableau, Power BI(Microsoft), can save the queries
 
 ### Deep Learning
 
-[ ] Tensorflow: 148k is an open-source library for dataflow and differentiable programming, widely employed for machine learning applications. Together with its high-level abstraction, Keras, it is a tool of choice for machine learning. They are primarily written in Python and C++ and primarily used in Python. Unlike Spark MLlib, it does not have a polyglot presence.
-
 [ ] [Keras](deep_learning/keras): 54.9k  Deep Learning for humans 
+
+[ ] Tensorflow: 148k is an open-source library for dataflow and differentiable programming, widely employed for machine learning applications. Together with its high-level abstraction, Keras, it is a tool of choice for machine learning. They are primarily written in Python and C++ and primarily used in Python. Unlike Spark MLlib, it does not have a polyglot presence.
 
 [ ] Theano is another Python-based open-source library for manipulating and evaluating mathematical expressions – for instance, matrix-based expressions, 
 which are commonly used in machine learning algorithms. Unlike Spark MLlib, Theano again is primarily used in Python. 
 Keras, however, can be used together with a Theano back end.
 
 [x] CNTK Microsoft Cognitive Toolkit (CNTK): NOT active, is a deep learning framework written in C++ that describes computational steps via a directed graph. It can be used in both Python and C++ programs and is primarily used in developing neural networks. There's a Keras back end based on CNTK available for use that provides the familiar intuitive abstraction.
-[ ] [Keras](https://github.com/keras-team/keras)
 [ ] [Pytorch](https://github.com/pytorch/pytorch)
 [ ] [aesara](https://github.com/aesara-devs/aesara)
 
@@ -84,7 +89,6 @@ Keras, however, can be used together with a Theano back end.
 [ ] [seaborn -  Statistical data visualization in Python, younger brother of Matplotlib](https://github.com/mwaskom/seaborn)
 [ ] [Matplotlib-plotting with Python](https://github.com/matplotlib/matplotlib)
 [0] [mplfinance-use with Matplotlib, static graph](https://github.com/matplotlib/mplfinance#contents-and-tutorials)
-
 
 ### Algorithms
 

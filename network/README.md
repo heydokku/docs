@@ -11,7 +11,7 @@ Proxy: Proxy servers act as secure gateways to the Internet for client computers
 
 ### Security
 
-[TLS vs SSL](https://kinsta.com/knowledgebase/tls-vs-ssl/ )
+[TLS vs SSL](https://kinsta.com/knowledgebase/tls-vs-ssl/ ): TLS is an updated version of SSL
 
 - Wildcard SSL cerfiticate
 A Wildcard SSL Certificate saves you money and time by securing your domain and unlimited sub-domains on a single certificate.
@@ -44,5 +44,8 @@ Can be self hosted on VPS
 
 [ ] Cloud flare
 
+### Protocols
+
+[TCP vs UDP](tcp_and_udp)
 
 

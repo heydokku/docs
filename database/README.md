@@ -6,17 +6,31 @@ OLTP
 ### Databases
 
 [ ] [postgres](sql/postgres)
-[0] google sheets
-[ ] sqlite: use only in development
 [0] MariaDB
 [x] [MySQL](MySQL)
-
-
-[ ] [influxdb](influxdb): time series database
+[0] google sheets
+[ ] sqlite: use only in development
 [ ] couchdb
 [ ] [Prisma](https://github.com/prisma/prisma) 16k
 
-### In-memory data store
+### Time series database - TSDB
+
+[0] [influxdb](TSDB/influxdb):  24k is the best
+[ ] TimescaleDB: 12k
+[ ] QuestDB: 12k
+[ ] AWS Timestream: for IOT
+
+### Database management tool
+
+- Web-based
+[0] adminer: for MySQL, PostgreSQL 100m+ Donwloads In docker hub, simpler than pgAdmin, without logging in
+[0] pgAdmin: only for PostgreSQL
+[X] phpAdmin: in LAMP stack
+
+- Desktop app
+[0] [Dbeaver](Dbeaver)
+
+### In-memory data store has server
 
 [ ] Redis
 [ ] Memcached
@@ -26,7 +40,7 @@ Memcached is designed for simplicity while Redis offers a rich set of features t
 
 ### Database for Big data
 
-[ ] Presto
+[ ] Presto: SQL query engine
 
 ### metadata database
 
@@ -38,19 +52,16 @@ Memcached is designed for simplicity while Redis offers a rich set of features t
 [ ] hasura: grapql engine on PostgreSQL
 
 
-NoSQL
+### NoSQL
 
 [ ] MongoDB
-[ ] ElasticSearch
+[ ] ElasticSearch: index and store multiple different types of document and data in real-time
 [ ] Cassandra https://hub.docker.com/_/cassandra
 [ ] DynamoDB https://hub.docker.com/r/amazon/dynamodb-local
 [ ] [CockroachDB](https://github.com/cockroachdb/cockroach)   https://hub.docker.com/r/cockroachdb/cockroach
 
-
-[ ] redis
-
 ### Database Client
 
-[ ] [gspread](gspread): to fetch the shared google sheet
-[ ] Terminal
+[0] [gspread](gspread): to fetch the shared google sheet
+[0] Terminal
 [0] Dbeaver:  written in Java

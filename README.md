@@ -12,3 +12,9 @@
 
 ### Data Flow
 
+### Data Sources
+
+1 news: hn
+2 search stack: stackshare
+3 search company: crunchbase
+

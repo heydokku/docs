@@ -1,3 +1,10 @@
+4/25
+
+[ ] Theia: 16.9k Cloud IDE in browser
+[ ] howto: Use navi cheat sheet to search for howto
+
+alias ?? =  `navi `how_to/howto_docker
+
 - [ ] setup duckduckgo cli only display the first 3 index
 - [ ] Habit tag: Ngoi lan nao, y nhu rang quay tay lan  y
 

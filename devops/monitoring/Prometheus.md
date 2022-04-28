@@ -1,6 +1,5 @@
 ### How Does Prometheus Integrate With Your Workloads?
 
-
 Usage for time-series data
 
 Because Prometheus works by pulling metrics from server (or scrapping metrics, as they call it), *you have to instrument your applications properly*

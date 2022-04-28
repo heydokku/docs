@@ -1,3 +1,0 @@
-- Writte config files with DSL(Domain specific language)
-- Iac: Infrastructure as code
-- Has terraform CLI

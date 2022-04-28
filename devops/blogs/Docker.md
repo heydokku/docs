@@ -17,12 +17,6 @@ Docker provides tooling and a platform to manage the lifecycle of your container
     The container becomes the unit for distributing and testing your application.
     When you’re ready, deploy your application into your production environment, as a container or an orchestrated service. This works the same whether your production environment is a local data center, a cloud provider, or a hybrid of the two.
 
-What can I use Docker for?
-
-Fast, consistent delivery of your applications
-
-Docker streamlines the development lifecycle by allowing developers to work in standardized environments using local containers which provide your applications and services. Containers are great for continuous integration and continuous delivery (CI/CD) workflows.
-
 Consider the following example scenario:
 
 Your developers write code locally and share their work with their colleagues using Docker containers.
@@ -63,7 +57,8 @@ Docker registries
 - A Docker registry stores Docker images. Docker Hub is a public registry that anyone can use, and Docker is configured to look for images on Docker Hub by default. You can even run your own private registry.
 
 When you use the docker pull or docker run commands, the required images are pulled from your configured registry. When you use the docker push command, your image is pushed to your configured registry.
-Docker objects
+
+- Docker objects
 
 When you use Docker, you are creating and using images, containers, networks, volumes, plugins, and other objects. This section is a brief overview of some of those objects.
 Images
@@ -71,12 +66,13 @@ Images
 An image is a read-only template with instructions for creating a Docker container. Often, an image is based on another image, with some additional customization. For example, you may build an image which is based on the ubuntu image, but installs the Apache web server and your application, as well as the configuration details needed to make your application run.
 
 You might create your own images or you might only use those created by others and published in a registry. To build your own image, you create a Dockerfile with a simple syntax for defining the steps needed to create the image and run it. Each instruction in a Dockerfile creates a layer in the image. When you change the Dockerfile and rebuild the image, only those layers which have changed are rebuilt. This is part of what makes images so lightweight, small, and fast, when compared to other virtualization technologies.
-Containers
+
+- Containers
 
 - Docker Engine and swarm mode
 
 Starting with version 1.12, Docker Engine incorporates Docker Swarm directly into the engine, 
-which renamed the **orchestration service** to swarm mode. Version 1.12 and higher make swarm mode the default clustering and orchestration service, but not the only one Docker supports.
+which renamed the **orchestration service** to swarm mode. 
 
 A swarm is a cluster of connected Docker Engine hosts onto which an admin can deploy application services. 
 Docker Engine enables instantiation of both manager and worker nodes from a single disk image at runtime instead of deployment. 
@@ -107,8 +103,10 @@ When you run this command, the following happens (assuming you are using the def
 
     When you type exit to terminate the /bin/bash command, the container stops but is not removed. You can start it again or remove it.
 
-The underlying technology
+- The underlying technology
 
-Docker is written in the Go programming language and takes advantage of several features of the Linux kernel to deliver its functionality. Docker uses a technology called namespaces to provide the isolated workspace called the container. When you run a container, 
-Docker creates a set of namespaces for that container.
+Docker is written in the Go programming language and takes advantage of several features of the Linux kernel to deliver its functionality. Docker uses a technology called namespaces to provide the isolated workspace called the container. 
+When you run a container, Docker creates a set of namespaces for that container.
 These namespaces provide a layer of isolation. Each aspect of a container runs in a separate namespace and its access is limited to that namespace.
+
+

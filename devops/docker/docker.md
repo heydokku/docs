@@ -137,5 +137,9 @@ and pushing your image to Docker Hub.
 
 ### Q & A
 
-[0] Everything run in container, bash command ...
-[ ] To run schedule.py, send images to Telegram
+
+Docker networks allow containers to communicate in different ways, such as through a bridge network (a private
+network), a host network (a public network), or an overlay network.
+
+Knowing Docker networks is important as it allows you to switch to another Docker network anytime as per the need of the
+application by disconnecting and then connecting back.
